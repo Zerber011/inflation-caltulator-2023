@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="background-overlay">
+
+        <h1>Inflacija</h1>
+
+        <div class="container">
+            <div id="inf">* Godišnja stopa inflacije u Srbiji je izmedju 8 i 15% godišnje</div>
+            <h3>Stopa inflacije: <input type="number" min="0.1" id="inflationRate"> %</h3> <br>
+            <h3>Izračunaj koliko će: <input type="number" min="0.1" id="money">€ vredeti za:
+                <input type="number" min="1" id="years"> godina!</h3>
+
+            <button onclick="inflationCalculator()">Izracunaj</button>
+        </div>
+
+        <p>Inflacija 'jede' vaš novac i on gubi na vrednosti. Za isti novac iz godine u godinu može se kupiti sve manje robe i usluga. Inflaciju svtarju banke, štampajući novac. Kad vi udjete u banku i zatrazite kredit, banka ce vam dati karticu i na njoj
+            novi novac! Taj novac nije postojao dok vi niste ušli u banku! Novo stvoreni novac! Novac niodkuda! To je samo jedan od načina kako banke puštaju u opticaj novi novac, činivši time da onaj u vašim džepovima vredi sve manje. <br><br>'Kad bi
+            svet znao kako funkcioniše monetarni sistem, sutra bi došlo do masovne pobune! <br> <br>Henry Ford'
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
